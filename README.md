@@ -13,6 +13,8 @@ The new version of this project involves both a hiding team and a hunting team.
 In particular, you don't have to use any of the new robots and if you ignore the obstacles, your code should still work. 
 (Of course, making smart decisions related to obstacles will probably help you get more coins!)
 
+**********
+
 This project adds three new complications:
 1) Obstacles (aka Traps) set up by the defending team
 2) A new super-valuable type of coin
