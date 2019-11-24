@@ -12,7 +12,7 @@ import java.util.List;
 //A robot who loses its turn due to a SLOW trap will not be including in the list
 
 public interface PlayerSearchingTeam{
-    public List<Robot> chooseTeam(GameState state); 
+    public List<Robot> chooseRobots(GameState state); 
 
     public List<Command> requestCommands(List<Location> information, List<Robot> robotsAwaitingCommand, GameState state);
 }
