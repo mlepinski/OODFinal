@@ -2,11 +2,11 @@
 
 This is an extension of the previous VisionProject (see https://github.com/mlepinski/VisionProject2)
 This repository includes only the classes used to communicate between the Game Engine and your team. 
-This weekend a new repository (OODFinal2) will be posted which has the working Game Engine.
+Soon a new repository (OODFinal2) will be posted which has the working Game Engine.
 
 **********
 
-The new version of this project involves both a hiding team and a hunting team.
+The new version of this project involves both a hiding team and a searching team.
 (The hiding team places the coins into the maze and the hunting team tries to find them)
 
 **Note: This game has significant complexity, but you can ignore a lot of this complexity if you choose**
@@ -16,17 +16,17 @@ In particular, you don't have to use any of the new robots and if you ignore the
 **********
 
 This project adds three new complications:
-1) Obstacles (aka Traps) set up by the defending team
+1) Obstacles (aka Traps) set up by the hiding team
 2) A new super-valuable type of coin
 3) More types of robots
 
 The game now works in the following way:
-A) The GameEngine generates a maze and hands it to the defending team
+A) The GameEngine generates a maze and hands it to the hiding team
 B) The hiding team is asked to place COINS into the maze
 C) The hiding team is asked to place OBSTACLES into the maze
 D) The GameEngine generates a random starting location on the edge of the Maze
-E) The hunting team selects which robots they want on their team
-F) The hunting team searches the maze, just like in the prior Vision Project. 
+E) The searching team selects which robots they want on their team
+F) The searching team searches the maze, just like in the prior Vision Project. 
 G) The teams switch roles and we start back at Step A
 
 **Your job is to implement the PlayerTeam interface. 
