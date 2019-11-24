@@ -20,6 +20,7 @@ public class Location{
     List<CoinType> the_coins;
     List<Robot> the_robots;
     List<DirType> the_directions;
+    List<ObstacleType> the_obstacles;
     int x_coord;
     int y_coord;
     boolean is_start;
@@ -35,6 +36,10 @@ public class Location{
 
     public List<DirType> getDirections(){
 	return the_directions;
+    }
+	
+    public List<ObstacleType> getObstacles(){
+	return the_obstacles;
     }
 
     public int getX(){
@@ -64,6 +69,10 @@ public class Location{
     void setTheRobots(List<Robot> robots){
 	the_robots = robots;
     }
+	
+    void setTheObstacles(List<ObstacleType> obs){
+	the_obstacles = obs;
+    }
 
     void setScanned(boolean b){
 	is_scanned = b;
@@ -81,6 +90,7 @@ public class Location{
 	the_coins = null;
 	the_robots = null;
 	the_directions = null;
+	the_obstacles = null;
     }
 
     //Transform a Location into a MazeLocation 
