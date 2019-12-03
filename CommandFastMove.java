@@ -19,11 +19,11 @@ public class CommandFastMove implements Command{
     }
 
     public Command getCmd1(){
-	return first_direction;
+	return first_cmd;
     }
 
     public Command getCmd2(){
-        return second_direction;
+        return second_cmd;
     }
 
     public CommandFastMove(Robot rob, Command cmd1, Command cmd2){
